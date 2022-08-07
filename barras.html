@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title> Filmes de Ação </title>
+    <style>
+        body {
+            background-color: black;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1040px;
+            height: 2500px;
+            margin: auto;
+        }
+        
+        .int1 {
+            padding-top: 20px;
+            width: 100%;
+            max-width: 600px;
+            max-height: 100%;
+            height: 150px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .int2 {
+            width: 100%;
+            max-width: 600px;
+            max-height: 100%;
+            height: 150px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        
+        .int3 {
+            width: 100%;
+            max-width: 600px;
+            max-height: 100%;
+            height: 150px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        
+        .int4 {
+            width: 100%;
+            max-width: 600px;
+            max-height: 100%;
+            height: 150px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        
+        .int5 {
+            width: 100%;
+            max-width: 600px;
+            max-height: 100%;
+            height: 150px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        
+        .int6 {
+            width: 100%;
+            max-width: 600px;
+            max-height: 100%;
+            height: 150px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        
+        .int7 {
+            width: 100%;
+            max-width: 600px;
+            max-height: 100%;
+            height: 150px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        
+        .int8 {
+            width: 100%;
+            max-width: 600px;
+            max-height: 100%;
+            height: 150px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        
+        .int9 {
+            width: 100%;
+            max-width: 600px;
+            max-height: 100%;
+            height: 150px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        
+        .int10 {
+            width: 100%;
+            max-width: 600px;
+            max-height: 100%;
+            height: 150px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        
+        .a {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .b {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .c {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .d {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .e {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            margin-right: 5px;
+            flex: 1;
+        }
+        
+        .f {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .g {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .h {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .i {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .j {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            margin-right: 5px;
+            flex: 1;
+        }
+        
+        .k {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .l {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .m {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .n {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .o {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            margin-right: 5px;
+            flex: 1;
+        }
+        
+        .p {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .q {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .r {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .s {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .t {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            margin-right: 5px;
+            flex: 1;
+        }
+        
+        .a1 {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .a2 {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .a3 {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .a4 {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .a5 {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            margin-right: 5px;
+            flex: 1;
+        }
+        
+        .b1 {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .b2 {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .b3 {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .b4 {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .b5 {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            margin-right: 5px;
+            flex: 1;
+        }
+        
+        .c1 {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .c2 {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .c3 {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .c4 {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .c5 {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            margin-right: 5px;
+            flex: 1;
+        }
+        
+        .d1 {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .d2 {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .d3 {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .d4 {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .d5 {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            margin-right: 5px;
+            flex: 1;
+        }
+        
+        .e1 {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .e2 {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .e3 {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .e4 {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .e5 {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            margin-right: 5px;
+            flex: 1;
+        }
+        
+        .f1 {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .f2 {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .f3 {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .f4 {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            flex: 1;
+        }
+        
+        .f5 {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            background-color: green;
+            margin-left: 5px;
+            margin-right: 5px;
+            flex: 1;
+        }
+        
+        .anuncio {
+            width: 100%;
+            max-width: 400px;
+            height: 100%;
+            max-height: 200px;
+            background-color: blue;
+            margin: auto;
+            margin-top: 10px;
+        }
+        
+        img {
+            width: 100%;
+            max-width: 100px;
+            height: 100%;
+            max-height: 150px;
+            margin-left: 5px;
+            margin-right: 5px;
+            flex: 1;
+        }
+        
+        .type {
+            width: 100%;
+            max-width: 300px;
+            height: 100%;
+            max-height: 500px;
+            margin: auto;
+            color: blue;
+            font-size: 20px;
+            box-shadow: 1px 10px 20px 20px blue;
+            margin-top: 70px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="type">Categoria: Ação </div>
+    <div class="container">
+        <div class="int1">
+            <div class="a"><img src='./fotos/moto.png' /></div>
+            <div class="b"><img src='./fotos/moto.png' /></div>
+            <div class="c"><img src='./fotos/moto.png' /></div>
+            <div class="d"><img src='./fotos/moto.png' /></div>
+            <div class="e"><img src='./fotos/moto.png' /></div>
+        </div>
+        <div class="int2">
+            <div class="f"><img src='./fotos/moto.png' /></div>
+            <div class="g"><img src='./fotos/moto.png' /></div>
+            <div class="h"><img src='./fotos/moto.png' /></div>
+            <div class="i"><img src='./fotos/moto.png' /></div>
+            <div class="j"><img src='./fotos/moto.png' /></div>
+        </div>
+        <div class="int3">
+            <div class="k"><img src='./fotos/moto.png' /></div>
+            <div class="l"><img src='./fotos/moto.png' /></div>
+            <div class="m"><img src='./fotos/moto.png' /></div>
+            <div class="n"><img src='./fotos/moto.png' /></div>
+            <div class="o"><img src='./fotos/moto.png' /></div>
+        </div>
+        <div class="int4">
+            <div class="p"><img src='./fotos/moto.png' /></div>
+            <div class="q"><img src='./fotos/moto.png' /></div>
+            <div class="r"><img src='./fotos/moto.png' /></div>
+            <div class="s"><img src='./fotos/moto.png' /></div>
+            <div class="t"><img src='./fotos/moto.png' /></div>
+        </div>
+
+        <div class="int5">
+            <div class="a1"><img src='./fotos/moto.png' /></div>
+            <div class="a2"><img src='./fotos/moto.png' /></div>
+            <div class="a3"><img src='./fotos/moto.png' /></div>
+            <div class="a4"><img src='./fotos/moto.png' /></div>
+            <div class="a5"><img src='./fotos/moto.png' /></div>
+        </div>
+        <div class="anuncio">
+            <h1> aqui e anuncio</h1>
+        </div>
+        <div class="int6">
+            <div class="b1"><img src='./fotos/moto.png' /></div>
+            <div class="b2"><img src='./fotos/moto.png' /></div>
+            <div class="b3"><img src='./fotos/moto.png' /></div>
+            <div class="b4"><img src='./fotos/moto.png' /></div>
+            <div class="b5"><img src='./fotos/moto.png' /></div>
+        </div>
+        <div class="int7">
+            <div class="c1"><img src='./fotos/moto.png' /></div>
+            <div class="c2"><img src='./fotos/moto.png' /></div>
+            <div class="c3"><img src='./fotos/moto.png' /></div>
+            <div class="c4"><img src='./fotos/moto.png' /></div>
+            <div class="c5"><img src='./fotos/moto.png' /></div>
+        </div>
+        <div class="int8">
+            <div class="d1"><img src='./fotos/moto.png' /></div>
+            <div class="d2"><img src='./fotos/moto.png' /></div>
+            <div class="d3"><img src='./fotos/moto.png' /></div>
+            <div class="d4"><img src='./fotos/moto.png' /></div>
+            <div class="d5"><img src='./fotos/moto.png' /></div>
+        </div>
+        <div class="int9">
+            <div class="e1"><img src='./fotos/moto.png' /></div>
+            <div class="e2"><img src='./fotos/moto.png' /></div>
+            <div class="e3"><img src='./fotos/moto.png' /></div>
+            <div class="e4"><img src='./fotos/moto.png' /></div>
+            <div class="e5"><img src='./fotos/moto.png' /></div>
+        </div>
+        <div class="int10">
+            <div class="f1"><img src='./fotos/moto.png' /></div>
+            <div class="f2"><img src='./fotos/moto.png' /></div>
+            <div class="f3"><img src='./fotos/moto.png' /></div>
+            <div class="f4"><img src='./fotos/moto.png' /></div>
+            <div class="f5"><img src='./fotos/moto.png' /></div>
+        </div>
+    </div>
+</body>
+
+</html>
